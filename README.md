@@ -1,7 +1,7 @@
 # 📊 AI-Powered Sales Forecasting Dashboard
 
 An end-to-end **Machine Learning + Business Intelligence** project that forecasts future sales using historical data and presents insights through an interactive **Power BI dashboard**.  
-This project is built using the **Rossmann Store Sales dataset**, leveraging **Python, XGBoost**, and **Power BI** to deliver actionable business insights.
+This project is built using the **Rossmann Store Sales dataset**(Kaggle), leveraging **Python, XGBoost**, and **Power BI** to deliver actionable business insights.
 
 ---
 
@@ -62,6 +62,8 @@ This project simulates a **real-world analytics workflow** commonly used in reta
 Run example:
 ```bash
 python src/rossmann_train_xgb.py --horizon 14 --rounds 200
+
+---
 
 ### 3️⃣ Power BI Dashboard
 
