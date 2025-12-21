@@ -59,10 +59,6 @@ This project simulates a **real-world analytics workflow** commonly used in reta
 
 📄 Script: `src/rossmann_train_xgb.py`
 
-Run example:
-```bash
-python src/rossmann_train_xgb.py --horizon 14 --rounds 200
-
 ---
 
 ### 3️⃣ Power BI Dashboard
