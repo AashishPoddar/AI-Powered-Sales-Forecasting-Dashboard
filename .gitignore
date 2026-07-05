@@ -1,9 +1,38 @@
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environment
 venv/
+.venv/
+env/
+
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
 
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
 
+# Data files (too large for git)
+data/raw/*.csv
+data/processed/*.csv
 
+# Outputs (reproducible from source)
+outputs/forecasts/*.csv
 
+# Environment variables
+.env
+.env.local
 
-
+# Jupyter
+.ipynb_checkpoints/
